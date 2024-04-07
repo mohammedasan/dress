@@ -9,7 +9,7 @@ function Header() {
    <div className="header">
       <div className="headerLeft">
         <Link style={{textDecoration:'none',color:'aliceblue'}} to="/">
-        <h2>Redux-Shop</h2>
+        <h2> Artisan Wonders</h2>
         </Link>
       </div>
    </div>

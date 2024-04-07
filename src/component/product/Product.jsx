@@ -21,7 +21,7 @@ function Product() {
         <p>{category}</p>
       </div>
       <div className="productPrice">
-        <h6>Rs ${price}</h6>
+        <h6>Price: ${price}</h6>
       </div>
       <div className="purchaseBtn">
         <button className='prd-btn'>Add to Cart</button>

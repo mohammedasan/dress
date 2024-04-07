@@ -14,7 +14,7 @@ function Products() {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      await axios("https://fakestoreapi.com/products?limit=10")
+      await axios("https://6610dee60640280f219d86ae.mockapi.io/asan")
             .then((res)=>{
               dispatch(setProducts(res.data));
             })

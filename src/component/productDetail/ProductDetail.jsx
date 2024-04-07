@@ -18,7 +18,7 @@ function ProductDetail() {
   const dispatch = useDispatch();
   useEffect(() => {
     const fetchProductDetail = async () => {
-      await axios(`https://fakestoreapi.com/products/${productId}`)
+      await axios(`https://6610dee60640280f219d86ae.mockapi.io/asan/${productId}`)
         .then((res) => {
           dispatch(selectedProduct(res.data));
         })
@@ -46,7 +46,7 @@ function ProductDetail() {
               <p>({category})</p>
             </div>
             <div className="productPrice">
-              <h6>Rs ${price}</h6>
+              <h6>Price: ${price}</h6>
             </div>
             <div className="productDetDesc">
               <p>{description}</p>
